@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+
+    <!-- icofont -->
+    <link rel="stylesheet" href="./icofont/icofont.min.css" />
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="./css/grid-gallery.min.css"> -->
+    <!--Local css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header id="header" class="header">
+        <div class="container">
+            <nav>
+                <a href="/">
+                    <img src="./images/logo 1.png" alt="" />
+                </a>
+
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li>
+                        <a class="app_btn app_btn_transparent" href="#book">Book a table</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero starts-->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero_content">
+                <h1>Enjoy the best meal ever with us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin
+                    rhoncus urn a dictum neque molestie ultricies.
+                </p>
+                <a href="#book" class="app_btn">Book a table</a>
+            </div>
+        </div>
+    </section>
+    <!-- Hero ends -->
+
+    <!-- About starts-->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-md-7">
+                    <div class="about_content">
+                        <h3 class="section_s_title">About us</h3>
+                        <h3 class="section_title">RESTAURANT</h3>
+                        <div class="row py-4">
+                            <div class="col-md-6">
+                                Lorem ipsum dolor sit amet, consect etur adip iscing elit.
+                                Proin rhoncus urn a dictum neque molestie ultricies.
+                            </div>
+                            <div class="col-md-6">
+                                Lorem ipsum dolor sit amet, consect etur adip iscing elit.
+                                Proin rhoncus urn a dictum neque molestie ultricies.
+                            </div>
+                        </div>
+                        <a href="#book" class="app_btn">Book a table</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="about_video">
+                        <img src="./images/About.png" alt="" />
+                        <img class="icon play_video"
+                            data-src="http://bingo.ksdevware.com/wp-content/uploads/2022/05/279448223_550735376472330_6070290724400858434_n.mp4"
+                            src="./images/video.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="menus">
+                <div class="menu">
+                    <img src="./images/menu (1).png" alt="vegetable" class="inner_img" />
+                    <p class="down">vegetable</p>
+                </div>
+
+                <div class="menu">
+                    <img src="./images/menu (2).png" alt="meat meal" class="inner_img" />
+                    <p class="down">meat meal</p>
+                </div>
+
+                <div class="menu">
+                    <img src="./images/menu (3).png" alt="cheese" class="inner_img" />
+                    <p class="down">cheese</p>
+                </div>
+
+                <div class="menu">
+                    <img src="./images/menu (4).png" alt="prawn curry" class="inner_img" />
+                    <p class="down">prawn curry</p>
+                </div>
+                <!-- Model Popup -->
+                <div class="popup">
+                    <img src="./images/G6.png" alt="This is demo image" class="popup_img">
+
+                </div>
+
+                <!-- Overlay -->
+                <div class="overlay">
+                    <span class="close">&times;</span>
+                </div>
+                <!-- Main Content End -->
+                <!--Caption Text  -->
+                <div id="caption"></div>
+                <!--Caption Text  -->
+
+            </div>
+
+
+    </section>
+    <!-- About Ends -->
+
+    <!-- Book a table -->
+    <section class="book" id="book">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="table_1">
+                        <h3 class="section_s_title">RESERVE</h3>
+                        <h3 class="section_title_2">Book A Table</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-4 col-6">
+                            <div class="date_box">
+                                <p class="tit">SET DATE :</p>
+                                <div class="date_1">
+                                    <div class="date-big">
+                                        <select name="" id="">
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                        </select>
+                                    </div>
+                                    <div class="date-small">
+                                        <select name="" id="">
+                                            <option value="">Jan</option>
+                                            <option value="">Feb</option>
+                                            <option value="">Mar</option>
+                                        </select>
+                                        <!-- <img class="icon_1" src="./images/down.svg" alt=""> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div>
+                                <p class="tit">GUESTS :</p>
+                                <div class="d-flex">
+                                    <div class="date-big">
+                                        <input value="1" type="number" />
+                                        <img class="icon_1" src="./images/up_down.svg" alt="" />
+                                    </div>
+                                    <div class="date-small">
+                                        <!-- <img class="icon_1" src="./images/up_down.svg" alt=""> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#book" class="app_btn">Book a table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h3 class="section_s_title text-center">BEST MENUS</h3>
+            <h3 class="section_title text-center">GALLERY</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+
+                    <div class="gallery_content">
+                        <div class="gg-box">
+
+                            <div class="gg-element">
+                                <img src="./images/G0 (1).png" alt="1" class="my_Img" />
+                            </div>
+
+                            <div class="gg-element">
+                                <img src="./images/G1.png" alt="2" class="my_Img" />
+                            </div>
+                        </div>
+
+                        <div class="gg-box">
+                            <div class="gg-element">
+                                <div class="gg">
+                                    <h1 class="gg-tit">SALMON PASTA</h1>
+                                    <h3 class="gg-tit">Lorem ipsum dolor sit.</h3>
+                                </div>
+                                <img src="./images/G3.png" alt="3" class="my_Img" />
+                            </div>
+                            <div class="gg-element">
+                                <img src="./images/G4.png" alt="4" class="my_Img" />
+                            </div>
+                        </div>
+
+                        <div class="gg-box">
+                            <div class="gg-element-2">
+                                <img src="./images/menu (1).png" alt="5" class="my_Img" />
+                            </div>
+
+                            <div class="gg-element-1">
+                                <div class="img_1"><img src="./images/T1.png" alt="6" class="my_Img" /></div>
+                                <div class="img_2"><img src="./images/T2.png" alt="7" class="my_Img" /></div>
+                            </div>
+
+                            <div class="gg-element-3">
+                                <img src="./images/G6.png" alt="8" class="my_Img" />
+                            </div>
+                        </div>
+                        <!-- Model Popup -->
+                        <div class="popup1">
+                            <img src="./images/G6.png" alt="This is demo image" class="popup_img1">
+
+                        </div>
+
+                        <!-- Overlay -->
+                        <div class="overlay1">
+                            <span class="close">&times;</span>
+                        </div>
+                        <!-- Main Content End -->
+                        <!--Caption Text  -->
+                        <!-- <div id="caption1"></div> -->
+                        <!--Caption Text  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer starts -->
+    <section class="footer">
+        <div class="container">
+
+            <div class="foot_content">
+                <div class="ft_1">
+                    <div class="foot">
+                        <h1 class="text">STAY TUNED</h1>
+                        <p class="para_0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent eu libero elit.
+                        </p>
+                        <div class="communicate">
+                            <i class="icofont-pinterest"></i>
+                            <i class="icofont-facebook"></i>
+
+                            <i class="icofont-instagram"></i>
+                            <i class="icofont-twitter"></i>
+                        </div>
+                    </div>
+
+                    <div class="foot">
+                        <div class="footer_1">
+                            <img src="./images/logo 1.png" alt="" class="top" />
+                        </div>
+
+                        <div class="Links">
+                            <div class="link_1"><a href="#" class="address">
+                                    <i class="icofont-email"></i>
+                                    info@Amrussell.com
+                                </a></div>
+                            <div class="link_1"><a href="#" class="address">
+                                    <i class="icofont-phone"></i>
+                                    ph-+ 880-1717233957
+                                </a></div>
+                            <div class="link_1"><a href="#" class="address">
+                                    <i class="icofont-google-map"></i>P,B 5200,Bangladesh
+                                </a></div>
+
+                        </div>
+                    </div>
+
+                    <div class="foot">
+                        <div class="footer_2">
+                            <a href="#">NEWSLETTER</a>
+
+                        </div>
+
+                        <div class="Links_2">
+                            <form>
+                                <label>
+                                    <input type="email" id="fname" name="email" placeholder="Your Email" />
+
+
+                                </label>
+                                <a href="#" class="tele">
+                                    <i class="icofont-telegram"></i>
+
+                                </a>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr style="color: #ddd" />
+            <div class="container text-center">
+                <p class="copyright">
+                    Copyright &copy; 2022. All rights reserved. Developed by
+                    <a href="https://RUSSELLdev.com">Russell</a>
+                </p>
+            </div> -->
+        </div>
+    </section>
+    <!-- footer ends -->
+
+    <!-- Video LightBox-->
+    <div class="lightbox">
+        <div class="lightbox_content">
+            <div class="lightbox_video">
+                <video controls>
+                    <source
+                        src="http://bingo.ksdevware.com/wp-content/uploads/2022/05/279448223_550735376472330_6070290724400858434_n.mp4"
+                        type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div id="gg-screen"></div>
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- <script src="./js/grid-gallery.min.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
